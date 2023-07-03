@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="We are bringing PEC-MAN as a first seen on ETH Smart Chain.
+PEC-MAN is not just a meme. It is a movement. 
+We are developing a free game for all to play. 
+Leaderboard will be updated daily and ETH will be dispersed to top #1 player daily.
+Game will be tough, no worries. "
+    />
+    <meta
+      name="description"
+      content="We are bringing PEC-MAN as a first seen on ETH Smart Chain.
+PEC-MAN is not just a meme. It is a movement. 
+We are developing a free game for all to play. 
+Leaderboard will be updated daily and ETH will be dispersed to top #1 player daily.
+Game will be tough, no worries."
+    />
+    <meta name="author" content />
+    <!-- Title  -->
+    <title>PEC-MAN</title>
+    <!-- png favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo-light.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo-light.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round:100,200,300,400,500,600,700,800,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @font-face {
+        font-family: psyop;
+        src: url(fonts/psyop.otf);
+      }
+      :root,
+      body,
+      html {
+        font-family: psyop;
+        overflow-x: hidden;
+      }
+      .logo-style {
+        width: 500px;
+      }
+      @media (max-width: 768px) {
+        .logo-style {
+          width: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <!-- <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div> -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <a class="logo" style="width: 70px" href="index.html#"
+          ><img
+            src="images/logo-light.png"
+            alt="logo"
+            width="50px"
+            height="50px"
+          /> </a
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="margin-right: 10px"
+        >
+          <span class="icon-bar"><i class="fas fa-bars"></i></span></button
+        ><!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#tokenomics">Tokenomics</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="index.html#allocations">Allocations</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="slider slider-prlx text-center" id="home">
+      <div class="swiper-container parallax-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="bg-img valign" style="background-color: #000000">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div
+                    class="flex-column d-flex flex-md-row justify-content-center align-items-center"
+                  >
+                    <img
+                      src="images/pecman.png"
+                      alt="logo"
+                      width="10px"
+                      height="10px"
+                      class="logo-style"
+                    />
+                    <div class="caption center">
+                      <div>
+                        <h1 class="text-neon-bold-green">PEC-MAN</h1>
+                        <br />
+                        <h4 class="text-neon-bold-green">
+                          We are bringing PEC-MAN as first seen on ETH to the
+                          Ethereum Smart Chain.
+                        </h4>
+                        <h5 class="text-neon-bold-green">
+                          PEC-MAN is not just a meme. It's a movement. It's a
+                          And u can play this game. It's a community.
+                        </h5>
+                        <!-- <h6
+                          class="wow txt"
+                          data-splitting
+                          style="word-break: break-all"
+                        >
+                          0xcAC253FaE451A718065a31cFeC6Ed5e4Ef8f8D78
+                        </h6> -->
+                      </div>
+
+                      <a
+                        href="https://uniswap.org"
+                        target="_blank"
+                        class="btn-neon mt-40"
+                        >Buy Now</a
+                      >
+                      <!-- <a
+                        href="https://www.dextools.io/app"
+                        target="_blank"
+                        class="btn-neon mt-40"
+                        >View Chart</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination top botm custom-font"></div>
+        <div class="social-icon">
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-twitter"></i> </a
+          ><a href="https://t.me/" target="_blank"
+            ><i class="fab fa-telegram-plane"></i> </a
+          ><!-- discord -->
+          <!-- <a href="https://discord.gg/wDcqr9n9" target="_blank"
+            ><i class="fab fa-discord"></i
+          ></a> -->
+        </div>
+      </div>
+    </header>
+    <div class="img-mons" class="">
+      <div class="row" class="">
+        <div class="d-flex justify-content-center align-items-center py-5">
+          <a
+            href="https://www.dexview.com"
+            class="col-md-5 col-5"
+            data-wow-delay=".5s"
+          >
+            <img
+              src="https://baobeytoken.com/static/media/dexview.b324bb762aec3013ebd4.png"
+              alt
+            />
+          </a>
+          <a
+            href="https://www.pinksale.finance"
+            class="col-md-5 col-5"
+            data-wow-delay=".5s"
+          >
+            <img
+              src="images/etherscan-logo-big.png"
+              alt
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="about section-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <div class="img-mons">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="" data-wow-delay=".5s">
+                      <img src="images/why.png" alt />
+                      <!-- <video
+                        src="https://res.cloudinary.com/dh8vews57/video/upload/v1685654309/about_wgli4z.mp4"
+                        autoplay
+                        loop
+                        playsinline
+                        width="100%"
+                        muted
+                      /> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 offset-lg-1 valign">
+              <div class="content">
+                <div class="content mb-10">
+                  <h2 class="wow custom-font" data-splitting>Why PEC-MAN?</h2>
+                  <h6 class="wow" data-splitting></h6>
+                </div>
+                <p
+                  class="txt text-neon-bold-green wow"
+                  data-splitting
+                  data-wow-delay=".1s"
+                >
+                PEC-MAN is an action maze chase video game; the player controls the 
+                eponymous character through an enclosed maze. <br> The objective of the game 
+                is to eat all of the dots placed in the maze while avoiding three colored 
+                ghosts — Shiba (red), Floki (cyan), and doge (orange).
+                </p>
+                <p class="wow txt" data-splitting></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vision -->
+      <div
+        class="about section-padding"
+        style="background-color: #000000"
+        id="about"
+      >
+        <div class="container">
+          <div
+            class="d-flex justify-content-between align-items-center flex-column flex-md-row-reverse"
+          >
+            <div class="col-lg-5 col-md-6">
+              <div class="img-mons">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="img1 wow imago" data-wow-delay=".5s">
+                      <img src="images/LOGO-LIG.png" alt />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 offset-lg-1 valign">
+              <div class="content">
+                <div class="content mb-10">
+                  <h2 class="wow custom-font" data-splitting>PEC-MAN GAME</h2>
+                  <h6 class="wow" data-splitting></h6>
+                </div>
+                <!-- <p class="txt text-neon-bold-green wow" data-splitting>
+                  We are building a simple, easy to play P2E which involves
+                  wagering cryptocurrency and dodging blocks with your 
+                  character (with the ability to connect NFTs as skins) and earn
+                  a return on your investment if you are within the top 3 in
+                  that day to split the prize pool.
+                  <br /><br />
+                  The fee to participate in a day is expected to be as low as
+                  $10. With the ability to participate in bigger pools up by
+                  wagering more.
+                  <br /><br />Our game is very much developed, with the
+                  exception of adding the  in-game character, and will be
+                  releasing the v1 version very soon. <br /><br />
+                  A later update will include the skins and exclusive features
+                  that would come along with them.
+                  <br /><br />
+                  Unlike most other p2e games this will be self funded by the
+                  users and therefore is sustainable.
+                  <br /><br />
+                  Psygame is simple but has unique algorithms to ensure nobody
+                  can maliciously exploit the system without inherent
+                  consequences.
+                </p> -->
+                <p class="wow txt" data-splitting></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="number-sec section-padding sub-bg" id="tokenomics">
+        <div class="container">
+          <div class="content mb-10">
+            <h2 class="wow custom-font" data-splitting>Tokenomics</h2>
+            <h6 class="wow" data-splitting></h6>
+          </div>
+
+          <p class="txt text-neon-bold-green wow" data-splitting>
+            Tax on buys, sells and transfers is absolutely 0. Making this a
+            completely free market to trade $PECMAN encouraging a high daily
+            volume rotation of tokens. Uniswap.<br /><br />
+            Contract ownership renounced <br /><br />$PECMAN will have many
+            community embedded usecases that can increase it's value over time
+            capitalising on the investor audience base - such as merchandise and
+            paid learning sessions.
+          </p>
+          <!-- <div class="row">
+            <div class="col-lg-3 col-md-3">
+              <div class="item">
+                <h3 class="custom-font"><span class="">pecman</span></h3>
+                <p class="wow txt" data-splitting>Name</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="item no-bord">
+                <h3 class="custom-font"><span class="">$PECMAN</span></h3>
+                <p class="wow txt" data-splitting>Ticker</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="item">
+                <h3 class="custom-font"><span class="">0%</span></h3>
+                <p class="wow txt" data-splitting>Buy Tax</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="item">
+                <h3 class="custom-font"><span class="">0%</span></h3>
+                <p class="wow txt" data-splitting>Sell Tax</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <section
+        class="number-sec section-padding sub-bg"
+        id="allocations"
+        style="background-color: #000000"
+      >
+        <div class="container">
+          <h3
+            class="text-neon-bold-green"
+            style="text-align: center; width: 100%; margin-bottom: 20px"
+          >
+            Allocations
+          </h3>
+          <div class="row">
+            <div class="col-lg-3 col-md-3">
+              <div class="item">
+                <h3 class="custom-font">
+                  <span class="">1,000,000</span>
+                </h3>
+                <p class="wow txt" data-splitting>Total Supply</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="item no-bord">
+                <h3 class="custom-font"><span class=""></span><img src="" alt="">2% / 2%</h3>
+                <p class="wow txt" data-splitting>Max Transaction /
+                  Max Wallet</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="item">
+                <h3 class="custom-font"><span class="">2%</span></h3>
+                <p class="wow txt" data-splitting>Team tokens for marketing</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="item">
+                <h3 class="custom-font"><span class="">1/1</span></h3>
+                <p class="wow txt" data-splitting>TAX</p>
+              </div>
+            </div>
+            </div>
+            <!-- <div class="col-lg-3 col-md-3">
+              <div class="item">
+                <h3 class="custom-font"><span class=""></span><img src="images/why.png" alt=""></h3>
+                <p class="wow txt" data-splitting></p>
+              </div>
+          </div> -->
+        </div>
+      </section>
+      <div id="app">
+        <section
+          class="call-action section-padding sub-bg bg-img"
+          data-background="img/pattern.png"
+          style="background-color: black"
+        >
+          <div class="container mx-10">
+            <div class="row">
+              <div class="col-md-8 col-lg-9">
+                <div class="content sm-mb30">
+                  <h2 class="wow custom-font" data-splitting>Links</h2>
+                  <!-- <h6 class="wow" data-splitting>
+                    Be wise, patient and cautious. The right opportunity will
+                    come, strike when the conditions are favorable. Join the
+                    $PECMAN. You have the wisdom to identify valuable projects
+                    and the patience to wait for your investments to grow. You
+                    just need to have $PECMAN mentality.
+                  </h6> -->
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3 valign">
+                <a
+                  href="https://t.me/"
+                  class="btn-neon wow fadeInUp"
+                  data-wow-delay=".5s"
+                  style="margin-right: 5px"
+                  >Telegram</a
+                >
+                <a
+                  href="https://twitter.com/"
+                  class="btn-neon wow fadeInUp"
+                  data-wow-delay=".5s"
+                  >Twitter</a
+                >
+              </div>
+            </div>
+            <a
+              class="txt text-neon-bold-green wow mt-10"
+              data-splitting
+              style="font-family: comfortaa"
+              href="mailto:admin@PECMANTEAM.com"
+            >
+              admin@PECMANTEAM.com
+            </a>
+          </div>
+        </section>
+      </div>
+      <footer
+        class="footer-half sub-bg section-padding pb-0 pt-0"
+        style="background-color: black"
+      >
+        <div class="container">
+          <div class="copyrights text-center">
+            <p>© 2023, PECMAN. All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+    <!-- vue js -->
+    <script src="js/vue.global.js"></script>
+    <script src="https://unpkg.com/@chenfengyuan/vue-number-input@2"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
